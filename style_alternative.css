@@ -1,0 +1,257 @@
+@media all and (max-width: 700px)
+{
+
+    body {
+    	width: auto;
+    }
+
+    .backgroundphoto{
+    	visibility: hidden;
+    	display: none;
+    }
+
+    .Corps{
+    	position: relative;
+    }
+
+}
+
+body
+{
+	width: 50%;
+	margin: auto;
+}
+
+h1
+{
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	font-size: 70px;
+	color: #07ceef;
+}
+
+h1, h2, h3, strong
+{
+	text-transform: uppercase;
+}
+
+h1 em
+{
+	font-size: 1.5em;
+	font-style: normal;
+}
+
+h1 strong
+{
+	font-weight: normal;
+	font-size: 0.7em;
+	color: white;
+}
+
+h2
+{
+	border-bottom: 2px solid #07ceef;
+	padding: 5px;
+	font-size: 1.2em;
+}
+
+h3
+{
+	background-color: #676767;
+	color: white;
+	font-size: 1.2em;
+	padding-left: 5px;
+}
+
+img
+{
+	width: 200px;
+}
+
+i
+{
+	margin : 5px;
+}
+
+h2 i
+{
+	color: #07ceef;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+nav
+{
+	display: flex;	
+}
+
+nav div
+{
+	flex-grow: 1;
+}
+
+nav p
+{
+	background-color: #333333;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	border: 2px white solid;
+	padding: 10px 0;
+	margin: 0;
+}
+
+nav p:hover
+{
+	background-color: #07ceef;
+	box-shadow: 0 0 20px white inset;
+}
+
+header
+{
+	background-color: #333333;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.2em;
+	padding: 2% 5% 2% 50%;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header em
+{
+	color: #07ceef;
+	font-weight: bold;
+}
+
+.Icon
+{
+	font-size: 2.2em;
+	margin: 10px 0 0 0;
+}
+
+.Icon em
+{
+	font-style: normal;
+	position: relative;
+	top: -15px;
+}
+
+.Icon span
+{
+	position: relative;
+	top: 15px;
+}
+
+.Intitulé
+{
+	font-size: 1.2em;
+}
+
+.Lignesupp
+{
+	border-bottom: 2px solid #acada8;
+	position: relative;
+	top: 9px;
+}
+
+.Corps
+{
+	display: flex;
+}
+
+article
+{
+	color: #676767;
+	padding: 2% 2% 2% 50%;
+}
+
+section
+{
+	padding: 2% 5% 2% 5%;;
+}
+
+.Description p
+{
+	background: #e9e8e3;
+	padding: 15px;
+	font-style: italic;
+}
+
+aside
+{
+	color: white;
+	text-align: justify;
+	font-size: 1.2em;
+	background-color: #333333;
+	width: 20%;
+	position: absolute;
+	top: 15.5%;
+	left: 28%;
+}
+
+aside p
+{
+	padding: 20px 0 0 25px;
+	margin: 15px 0;
+}
+
+aside section
+{
+	margin: 20px 0;
+}
+
+#backgroundphoto
+{
+	background-color: #676767;
+	text-align: center;
+	padding: 50px 0;
+}
+
+footer
+{
+	display: flex;
+}
+
+#Coingauche
+{
+	background-color: #676767;
+	width: 10%;
+}
+
+#footerleft
+{
+	background-color: #676767;
+	width: 80%;
+	-moz-transform: skewX(15deg);
+	-webkit-transform: skewX(15deg);
+	transform: skewX(15deg);
+	margin-left: -7px;
+}
+
+#footerright
+{
+	background-color: #333333;
+	width: 5%;
+	-moz-transform: skewX(15deg);
+	-webkit-transform: skewX(15deg);
+	transform: skewX(15deg);
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	text-align: right;
+	margin-left: 3px;
+	margin-right: -5px;
+}
+
+#Coindroit
+{
+	background-color: #333333;
+	width: 5%;
+}
